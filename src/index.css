@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://pixabay.com/get/57e8d1474850aa14ead9827dc02a32781522dfe05a53734a712f7ad7.png");
+  background-position: center;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
