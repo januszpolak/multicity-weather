@@ -1,5 +1,7 @@
 I made this app for my parent-in-low to help them check weather forecast from their favorite places :)
 
+Available on https://multicity-weather.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
