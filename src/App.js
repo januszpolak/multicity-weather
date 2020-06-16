@@ -9,10 +9,20 @@ function App() {
     <div className="App">
       <Today />
       <div className="app">
-        <Cities name="Krakow" />
-        <Cities name="Hamburg" />
-        <Cities name="Chicago" />
-        <Cities name="Mansfield" />
+        <Cities name="Krakow" time={new Date().toLocaleTimeString()} />
+        <Cities name="Hamburg" time={new Date().toLocaleTimeString()} />
+        <Cities
+          name="Chicago"
+          time={new Date().toLocaleTimeString("en-US", {
+            timeZone: "America/Chicago",
+          })}
+        />
+        <Cities
+          name="Mansfield"
+          time={new Date().toLocaleTimeString("en-UK", {
+            timeZone: "Europe/London",
+          })}
+        />
       </div>
     </div>
   );

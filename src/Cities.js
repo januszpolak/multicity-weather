@@ -52,6 +52,8 @@ export default class Cities extends Component {
         <h2>ciśnienie: {this.state.pressure} hPa</h2>
         <br />
         <Icons icon={this.state.icon} />
+        <br />
+        <h2>godzina: {this.props.time}</h2>
       </div>
     );
   }
