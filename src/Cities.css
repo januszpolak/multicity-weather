@@ -4,6 +4,10 @@
   margin: 1% auto;
   border-radius: 5%;
   font-size: 14px;
+  transition: all 0.3s;
+}
+.container:hover {
+  transform: scale(1.1);
 }
 h1,
 h2 {
