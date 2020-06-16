@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("https://pixabay.com/get/57e8d1474850aa14ead9827dc02a32781522dfe05a53734a712f7ad7.png");
+  background-image: url("https://cdn.pixabay.com/photo/2018/07/09/04/07/art-3525344_960_720.png");
   background-position: center;
   background-size: cover;
   font-family: "Montserrat", sans-serif;
+  color: white;
 }

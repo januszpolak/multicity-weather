@@ -1,7 +1,10 @@
+.App {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
 .app {
-  max-width: 800px;
-  margin: 10% auto;
+  max-width: 1300px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  margin: 150px auto;
 }
