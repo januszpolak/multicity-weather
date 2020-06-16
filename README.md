@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I made this app for my parent-in-low to help them check weather forecast from their favorite places :)
 
 ## Available Scripts
 
