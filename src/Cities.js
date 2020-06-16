@@ -46,7 +46,7 @@ export default class Cities extends Component {
   render() {
     return (
       <div className="container">
-        <h2>{this.props.name}</h2>
+        <h1>{this.props.name}</h1>
         <br />
         <h2>temperatura: {this.state.temp} °C</h2>
         <h2>ciśnienie: {this.state.pressure} hPa</h2>

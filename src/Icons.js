@@ -1,4 +1,5 @@
 import React from "react";
+import "./Icons.css";
 
 //this component show weather icon from openweather.org API
 
@@ -8,7 +9,7 @@ const Icons = (props) => {
     <div>
       <img
         src={`http://openweathermap.org/img/w/${icon}.png`}
-        alt="weather"
+        alt="weather icon"
         width="100px"
       />
     </div>

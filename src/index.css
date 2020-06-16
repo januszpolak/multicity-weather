@@ -8,6 +8,7 @@ body {
   background-image: url("https://cdn.pixabay.com/photo/2018/07/09/04/07/art-3525344_960_720.png");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
   color: white;
 }

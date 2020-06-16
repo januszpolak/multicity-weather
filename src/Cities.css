@@ -1,7 +1,23 @@
 .container {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 8% 3%;
-  margin: 1%;
+  margin: 1% auto;
   border-radius: 5%;
   font-size: 14px;
+}
+h1,
+h2 {
+  width: 100%;
+  text-align: center;
+}
+.icon {
+  margin: 0 auto;
+}
+
+@media (max-width: 1190px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
 }

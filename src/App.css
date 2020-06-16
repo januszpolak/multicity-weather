@@ -1,10 +1,18 @@
 .App {
   max-height: 100vh;
-  overflow: hidden;
 }
 
 .app {
   max-width: 1300px;
   display: flex;
   margin: 150px auto;
+}
+
+@media (max-width: 1190px) {
+  .App {
+    min-height: 100vh;
+  }
+  .app {
+    flex-direction: column;
+  }
 }
